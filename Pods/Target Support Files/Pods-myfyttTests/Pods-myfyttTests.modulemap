@@ -1,0 +1,6 @@
+framework module Pods_myfyttTests {
+  umbrella header "Pods-myfyttTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

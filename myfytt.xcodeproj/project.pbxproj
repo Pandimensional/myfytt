@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235F537262B5434D97FD2FBD /* Pods_myfytt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D12C859E75C904F45312A5 /* Pods_myfytt.framework */; };
+		2E3FBB509E229DE56AF225A4 /* Pods_myfyttTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81428F6E0ACABC2221E6ED0D /* Pods_myfyttTests.framework */; };
+		81155F414EEC9D38B0F6F7E5 /* Pods_myfyttUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99567761F6999F8EE941BC2 /* Pods_myfyttUITests.framework */; };
 		C21ED203214AAC7C008C1F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21ED202214AAC7C008C1F69 /* AppDelegate.swift */; };
 		C21ED205214AAC7C008C1F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21ED204214AAC7C008C1F69 /* ViewController.swift */; };
 		C21ED208214AAC7C008C1F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21ED206214AAC7C008C1F69 /* Main.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27D12C859E75C904F45312A5 /* Pods_myfytt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myfytt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F0A21E7891BC38F3F1DC38 /* Pods-myfyttTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfyttTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myfyttTests/Pods-myfyttTests.release.xcconfig"; sourceTree = "<group>"; };
+		40046A35D04056F3DE98311C /* Pods-myfyttTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfyttTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myfyttTests/Pods-myfyttTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81428F6E0ACABC2221E6ED0D /* Pods_myfyttTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myfyttTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9626F38D54EF9B132DD8B1D0 /* Pods-myfyttUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfyttUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myfyttUITests/Pods-myfyttUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE874256C109B16C11AAA53A /* Pods-myfytt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfytt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myfytt/Pods-myfytt.debug.xcconfig"; sourceTree = "<group>"; };
+		B99567761F6999F8EE941BC2 /* Pods_myfyttUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myfyttUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21ED1FF214AAC7C008C1F69 /* myfytt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myfytt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21ED202214AAC7C008C1F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C21ED204214AAC7C008C1F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		C21ED21E214AAC7E008C1F69 /* myfyttUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfyttUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21ED222214AAC7E008C1F69 /* myfyttUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfyttUITests.swift; sourceTree = "<group>"; };
 		C21ED224214AAC7E008C1F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB88E8F6C7C6F2EB04B3E508 /* Pods-myfytt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfytt.release.xcconfig"; path = "Pods/Target Support Files/Pods-myfytt/Pods-myfytt.release.xcconfig"; sourceTree = "<group>"; };
+		F33C2364C2BE3006BD4B35F6 /* Pods-myfyttUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfyttUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myfyttUITests/Pods-myfyttUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235F537262B5434D97FD2FBD /* Pods_myfytt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3FBB509E229DE56AF225A4 /* Pods_myfyttTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81155F414EEC9D38B0F6F7E5 /* Pods_myfyttUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1B59E913BA10C7DBE90E849 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE874256C109B16C11AAA53A /* Pods-myfytt.debug.xcconfig */,
+				EB88E8F6C7C6F2EB04B3E508 /* Pods-myfytt.release.xcconfig */,
+				40046A35D04056F3DE98311C /* Pods-myfyttTests.debug.xcconfig */,
+				36F0A21E7891BC38F3F1DC38 /* Pods-myfyttTests.release.xcconfig */,
+				F33C2364C2BE3006BD4B35F6 /* Pods-myfyttUITests.debug.xcconfig */,
+				9626F38D54EF9B132DD8B1D0 /* Pods-myfyttUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C21ED1F6214AAC7C008C1F69 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				C21ED216214AAC7E008C1F69 /* myfyttTests */,
 				C21ED221214AAC7E008C1F69 /* myfyttUITests */,
 				C21ED200214AAC7C008C1F69 /* Products */,
+				C1B59E913BA10C7DBE90E849 /* Pods */,
+				E54CC8EB4654F4803C7B7B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = myfyttUITests;
 			sourceTree = "<group>";
 		};
+		E54CC8EB4654F4803C7B7B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27D12C859E75C904F45312A5 /* Pods_myfytt.framework */,
+				81428F6E0ACABC2221E6ED0D /* Pods_myfyttTests.framework */,
+				B99567761F6999F8EE941BC2 /* Pods_myfyttUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C21ED227214AAC7E008C1F69 /* Build configuration list for PBXNativeTarget "myfytt" */;
 			buildPhases = (
+				2607CB59F07B532137DD4983 /* [CP] Check Pods Manifest.lock */,
 				C21ED1FB214AAC7C008C1F69 /* Sources */,
 				C21ED1FC214AAC7C008C1F69 /* Frameworks */,
 				C21ED1FD214AAC7C008C1F69 /* Resources */,
+				C45A94A9B82208925B09BEEF /* [CP] Embed Pods Frameworks */,
+				72585DDDA7D4B79469EC5566 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C21ED22A214AAC7E008C1F69 /* Build configuration list for PBXNativeTarget "myfyttTests" */;
 			buildPhases = (
+				620113E7C9619B6269E11B89 /* [CP] Check Pods Manifest.lock */,
 				C21ED20F214AAC7E008C1F69 /* Sources */,
 				C21ED210214AAC7E008C1F69 /* Frameworks */,
 				C21ED211214AAC7E008C1F69 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C21ED22D214AAC7E008C1F69 /* Build configuration list for PBXNativeTarget "myfyttUITests" */;
 			buildPhases = (
+				127E65A5A8E69C54772838CD /* [CP] Check Pods Manifest.lock */,
 				C21ED21A214AAC7E008C1F69 /* Sources */,
 				C21ED21B214AAC7E008C1F69 /* Frameworks */,
 				C21ED21C214AAC7E008C1F69 /* Resources */,
@@ -250,6 +295,123 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		127E65A5A8E69C54772838CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myfyttUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2607CB59F07B532137DD4983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myfytt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		620113E7C9619B6269E11B89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myfyttTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72585DDDA7D4B79469EC5566 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myfytt/Pods-myfytt-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myfytt/Pods-myfytt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C45A94A9B82208925B09BEEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myfytt/Pods-myfytt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClient/GoogleAPIClient.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myfytt/Pods-myfytt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C21ED1FB214AAC7C008C1F69 /* Sources */ = {
@@ -428,6 +590,7 @@
 		};
 		C21ED228214AAC7E008C1F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE874256C109B16C11AAA53A /* Pods-myfytt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +608,7 @@
 		};
 		C21ED229214AAC7E008C1F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB88E8F6C7C6F2EB04B3E508 /* Pods-myfytt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +626,7 @@
 		};
 		C21ED22B214AAC7E008C1F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40046A35D04056F3DE98311C /* Pods-myfyttTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +647,7 @@
 		};
 		C21ED22C214AAC7E008C1F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F0A21E7891BC38F3F1DC38 /* Pods-myfyttTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +668,7 @@
 		};
 		C21ED22E214AAC7E008C1F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F33C2364C2BE3006BD4B35F6 /* Pods-myfyttUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +688,7 @@
 		};
 		C21ED22F214AAC7E008C1F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9626F38D54EF9B132DD8B1D0 /* Pods-myfyttUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
