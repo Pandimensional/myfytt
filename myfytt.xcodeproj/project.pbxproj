@@ -17,6 +17,8 @@
 		C21ED20D214AAC7E008C1F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21ED20B214AAC7E008C1F69 /* LaunchScreen.storyboard */; };
 		C21ED218214AAC7E008C1F69 /* myfyttTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21ED217214AAC7E008C1F69 /* myfyttTests.swift */; };
 		C21ED223214AAC7E008C1F69 /* myfyttUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21ED222214AAC7E008C1F69 /* myfyttUITests.swift */; };
+		C2F5F8FB214CF4EA0096FB66 /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5F8FA214CF4EA0096FB66 /* StyleKit.swift */; };
+		C2F5F8FD214CF6050096FB66 /* myview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5F8FC214CF6050096FB66 /* myview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		C21ED21E214AAC7E008C1F69 /* myfyttUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfyttUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21ED222214AAC7E008C1F69 /* myfyttUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfyttUITests.swift; sourceTree = "<group>"; };
 		C21ED224214AAC7E008C1F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F5F8FA214CF4EA0096FB66 /* StyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
+		C2F5F8FC214CF6050096FB66 /* myview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myview.swift; sourceTree = "<group>"; };
 		EB88E8F6C7C6F2EB04B3E508 /* Pods-myfytt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfytt.release.xcconfig"; path = "Pods/Target Support Files/Pods-myfytt/Pods-myfytt.release.xcconfig"; sourceTree = "<group>"; };
 		F33C2364C2BE3006BD4B35F6 /* Pods-myfyttUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfyttUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myfyttUITests/Pods-myfyttUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				C21ED202214AAC7C008C1F69 /* AppDelegate.swift */,
+				C2F5F8FA214CF4EA0096FB66 /* StyleKit.swift */,
+				C2F5F8FC214CF6050096FB66 /* myview.swift */,
 				C21ED204214AAC7C008C1F69 /* ViewController.swift */,
 				C21ED206214AAC7C008C1F69 /* Main.storyboard */,
 				C21ED209214AAC7E008C1F69 /* Assets.xcassets */,
@@ -418,6 +424,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F5F8FD214CF6050096FB66 /* myview.swift in Sources */,
+				C2F5F8FB214CF4EA0096FB66 /* StyleKit.swift in Sources */,
 				C21ED205214AAC7C008C1F69 /* ViewController.swift in Sources */,
 				C21ED203214AAC7C008C1F69 /* AppDelegate.swift in Sources */,
 			);
